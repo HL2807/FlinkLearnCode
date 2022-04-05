@@ -30,3 +30,5 @@ target
 *.iml
 test/
 .mvn/
+
+# git@github.com:HL2807/FlinkLearnCode.git
