@@ -10,7 +10,8 @@ import org.apache.flink.streaming.api.functions.co.CoMapFunction;
  * @Date 2022年03月28日 21:32:20
  * @Version 1.0.0
  * @ClassName Test06_Connect
- * @Describe connect算子可以连接两个保持他们类型的数据流，两个数据流被connect之后，只是被放在了一个同一个流中，内部依然保持各自的数据和形式不发生任何变化，两个流相互独立。
+ * @Describe connect算子可以连接两个保持他们类型的数据流，两个数据流被connect之后，只是被放在了一个同一个流中，
+ * 内部依然保持各自的数据和形式不发生任何变化，两个流相互独立。
  */
 public class Test06_Connect {
 

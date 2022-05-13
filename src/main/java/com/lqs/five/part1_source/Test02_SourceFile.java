@@ -18,7 +18,7 @@ public class Test02_SourceFile {
         env.setParallelism(1);
 
         //TODO 2、读取文件里面的数据
-        env.readTextFile("input").print();
+        env.readTextFile("input/hcc").print();
 
         env.execute("SourceFile");
 
